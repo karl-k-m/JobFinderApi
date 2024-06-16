@@ -7,6 +7,8 @@
 Looking for jobs is really annoying. This is especially the case because for some god forsaken reason, most Estonian tech companies don't actually list their openings in the common job portals, only on their Careers page. So I made a scraper for it.
 This is **NOT** a bot for sending out job applications. It just finds the jobs so you don't have to look through dozens of different careers pages.
 
+I'll add more scrapers for different companies if I feel like it at some point.
+
 ## Specs
 The API is built with Flask. The Python version used is 3.11. A simple web-UI is provided (index.html). 
 
