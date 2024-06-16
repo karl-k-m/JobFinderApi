@@ -14,7 +14,6 @@ def scrape() -> list:
 
     jobs = []
     job_wrappers = soup.find_all('li', class_='z-career-job-card-image')
-    print("total jobs: ", len(job_wrappers))
     for job in job_wrappers:
         job_link = job.find('a', class_='block')['href']
         job_title = job.find('span', class_='text-block-base-link').text
