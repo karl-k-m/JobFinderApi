@@ -27,6 +27,7 @@ The only API endpoint is `/scrape_all`. This will use all the scrapers under the
   ]
 }
 ```
+The `internalfield` data is actually irrelevant and is there because I cannibalized a bunch of code from a previous iteration of this project. I am, however, too lazy to remove it.
 
 ## Usage
 To use, simply run `pip install -r requirements.txt` in the project root directory. Then, run app.py with `python3 app.py` (Linux) or `py app.py` (Windows). You can then use the web-UI (index.html).
